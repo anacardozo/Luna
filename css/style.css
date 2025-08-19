@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    list-style: none;
 }
 
 :root{
@@ -20,6 +21,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: top;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between; /*fica um em cada canto*/
+    align-items: center;
+    z-index: 6;
+}
+
+header nav ul li{
+    font-family: "MuseoModerno", sans-serif;
+    color: var(--background-color);
+    font-weight: 100;
+    font-size: 30px;
 }
 
 .img-bg{
@@ -63,7 +82,6 @@ div input{
     border:none;
     background: none; 
     border-bottom: 1px solid var(--text-color-secondary);
-    font-size: 20px;
     outline: none;
     color:var(--text-color-primary);
     cursor: pointer;
@@ -148,7 +166,7 @@ div .icone{
     border-radius: 50%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px){
     .img-bg{
     width: 50%;
     height: 100vh;
@@ -160,11 +178,312 @@ div .icone{
 
 form{
     width: 400px;
-    margin-left: 60%;
+    margin-left: 70%;
+    font-size: 20px;
 }
 
 form h1{
     font-size: 40px;
 }
 
+div input{
+    width: 300px;
+    height: 30px;
+}
+
+div input::placeholder{
+    color: var(--text-color-primary);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+div .icone{
+    right: 25%;    
+}
+
+.box-btn{
+    margin-right: 25%;
+}
+
+.btn-login{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    
+}
+
+.txt-1{
+    margin-right: 25%;
+}
+
+.txt-1 p{
+    font-size: 16px;
+
+}
+
+hr{
+    width: 300px;
+}
+
+.redes{
+    margin-right: 25%;
+}
+
+.redes ion-icon {
+    font-size: 38px;
+}
+}
+
+@media (max-width: 768px){
+
+form {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-top: 40%;
+}
+
+
+.img-bg{
+    opacity: 0;
+}
+
+header nav ul li{
+    color: var(--text-color-primary );
+}
+
+
+form h1{
+    display: flex;
+    margin-left: 20%;
+    font-size: 40px;
+    align-items: center;
+}
+
+div input{
+    width: 300px;
+    height: 30px;
+}
+
+div input::placeholder{
+    color: var(--text-color-primary);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+div .icone{
+    right: 25%;    
+}
+
+.box-btn{
+    margin-right: 25%;
+}
+
+.btn-login{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    
+}
+
+.txt-1{
+    margin-right: 25%;
+}
+
+.txt-1 p{
+    font-size: 16px;
+
+}
+
+hr{
+    width: 300px;
+}
+
+.redes{
+    margin-right: 25%;
+    margin-top: -10%;
+}
+
+.redes ion-icon {
+    font-size: 38px;
+}
+
+}
+
+@media (max-width: 480px){
+
+svg path{
+    opacity: 0;
+}
+
+
+form {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-top: 40%;
+  
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.img-bg{
+    opacity: 0;
+}
+
+header nav ul li{
+    color: var(--text-color-primary );
+}
+
+form{
+    width: 400px;
+    font-size: 20px;
+}
+
+form h1{
+    display: flex;
+    margin-left: 20%;
+    font-size: 40px;
+    align-items: center;
+}
+
+div input{
+    width: 300px;
+    height: 30px;
+}
+
+div input::placeholder{
+    color: var(--text-color-primary);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+div .icone{
+    right: 25%;    
+}
+
+.box-btn{
+    margin-right: 25%;
+}
+
+.btn-login{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    
+}
+
+.txt-1{
+    margin-right: 25%;
+}
+
+.txt-1 p{
+    font-size: 16px;
+
+}
+
+hr{
+    width: 300px;
+}
+
+.redes{
+    margin-right: 25%;
+    margin-top: -10%;
+}
+
+.redes ion-icon {
+    font-size: 38px;
+}
+}
+
+@media (max-width: 360px){
+header{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+form {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 40%;
+}
+
+
+.img-bg{
+    opacity: 0;
+}
+
+header nav ul li{
+    color: var(--text-color-primary );
+}
+
+form h1{
+    display: flex;
+    margin-left: 20%;
+    font-size: 40px;
+    align-items: center;
+}
+
+div input{
+    width: 300px;
+    height: 30px;
+}
+
+div input::placeholder{
+    color: var(--text-color-primary);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+div .icone{
+    right: 25%;    
+}
+
+.box-btn{
+    margin-right: 25%;
+}
+
+.btn-login{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    
+}
+
+.txt-1{
+    margin-right: 25%;
+}
+
+.txt-1 p{
+    font-size: 16px;
+
+}
+
+hr{
+    width: 300px;
+}
+
+.redes{
+    margin-right: 25%;
+    margin-top: -10%;
+}
+
+.redes ion-icon {
+    font-size: 38px;
+}
 }
