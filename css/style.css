@@ -166,6 +166,8 @@ div .icone{
     border-radius: 50%;
 }
 
+/* Responsividade tela de Login */
+
 @media (max-width: 1024px){
     .img-bg{
     width: 50%;
@@ -487,3 +489,5 @@ hr{
     font-size: 38px;
 }
 }
+
+/* TELA DE CADASTRO */
