@@ -28,45 +28,57 @@
 
     </header>
     <!-- Tela Cadastro -->
-    <div class="container">
+    <main>
         <img src="./assets/bg-login.jpg" alt="imagem vetorizada totalmente branca com ondas em toda sua lateral direita" class="img-bg">
 
+        <div class="container">
         <!-- Formulário Cadastro -->
-         <form>
-            <h1 class="text-cadastro">CADASTRO</h1>
-            <label>E-mail</label>
-            <!-- Email e Senha -->
+       <div class="form-cadastro">
+            <h1 class="text-login">LOGIN</h1>
+            <!-- DADOS DO CADASTRO -->
+            <label>NOME DA INSTITUIÇÃO</label>
+            <div class="box">
+                <input type="text" placeholder="Nome">
+                <ion-icon name="create" class="icone"></ion-icon>
+            </div>
+            <label>CNPJ</label>
+            <div class="box">
+                <input type="text" placeholder="CNPJ">
+                <ion-icon name="create" class="icone"></ion-icon>
+            </div>
+            <label>E-MAIL</label>
             <div class="box">
                 <input type="text" placeholder="E-mail">
-                <ion-icon name="mail-outline" class="icone"></ion-icon>
+                <ion-icon name="create" class="icone"></ion-icon>
             </div>
-            <label>Senha</label>
+            <label>BAIRRO</label>
             <div class="box">
-                <input type="password" placeholder="Senha">
-                <ion-icon name="lock-closed-outline" class="icone"></ion-icon>
+                <input type="text" placeholder="Bairro">
+                <ion-icon name="create" class="icone"></ion-icon>
             </div>
-            <!-- Botão Login -->
-            <div class="box-btn">
-            <button class="btn-login">Login</button>
+        </div>
+        <!-- <div class="form-cadastro2"> -->
+            <!-- DADOS DO CADASTRO -->
+            <!-- <label>NOME DA INSTITUIÇÃO</label>
+            <div class="box">
+                <input type="text" placeholder="E-mail">
             </div>
-            <!-- Levar para a tela de cadastro -->
-            <div class="txt-1">
-            <p>Novo por aqui? <a href="cadastro.html"> Cadastre-se</a></p>
+            <label>CNPJ</label>
+            <div class="box">
+                <input type="text" placeholder="E-mail">
             </div>
-            <hr>
-            <!-- Redes Sociais -->
-            <div class="redes">
-                <a href="#" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-            <a href="#" target="_blank">            
-            <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-            <a href="#" target="_blank">
-            <ion-icon name="logo-whatsapp"></ion-icon>
-            </a>
+            <label>E-MAIL</label>
+            <div class="box">
+                <input type="text" placeholder="E-mail">
             </div>
-         </form>
-    </div>  
+            <label>BAIRRO</label>
+            <div class="box">
+                <input type="text" placeholder="E-mail">
+            </div>
+        </div> -->
+        </div>
+    </main>  
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
